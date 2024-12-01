@@ -1,0 +1,700 @@
+
+/*ESTILOS MAIN BANNER*/
+
+.main-banner {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+    height: 900px;
+    background-image: url("../images/v2-banner-fachada-de-hotel.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 129px;
+
+}
+
+
+/*ESTILOS MAIN*/
+
+#main {
+    z-index: 1;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100vh;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*.titulo-servicios {
+    text-align: center;
+    margin: 95px 0px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+
+
+/*ESTILOS GRILLAS PAGE INICIO SERVICIOS*/
+
+.section-grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    padding: 0 120px 70px 120px;
+    
+
+    /*
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    */
+}
+
+.grid-card-1 {
+    background-color: #ffffff;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    text-align: center;
+
+    /*
+    width: 148px;
+    height: auto;
+    border: 5px red dotted;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px;
+    */
+}
+
+.grid-card-picture-1 img {
+    width: 60px;
+    height: 60px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    /*
+    width: 50px;
+    margin-bottom: 15px;
+    */
+}
+
+.grid-card-1 h2 {
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /*
+    color: black;
+    font-size: 20px;
+    opacity: 50%;
+    font-family: 'Lucida Sans';
+    */
+}
+
+
+
+
+
+/* MAIN DE HISTORIA DEL HOTEL */
+
+
+/*.titulo-historia {
+    text-align: center;
+    margin: 80px 0px;
+    padding: 1rem;
+    /* background-color: #f4f4f4;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+.section-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+
+    max-width: 1000px;
+    /*margin: 0 auto;*/
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+
+    /*width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 150px;*/
+
+    /* background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; */
+}
+
+.historia-textos{
+    flex: 2;
+    
+    /*max-width: 250px;*/
+
+    /*flex: 1;
+    max-width: 60%;*/
+}
+
+.historia-textos h4{
+
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /*text-align: left;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+}
+
+.historia-textos p{
+
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.grid-picture-historia{
+
+    flex: 1;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+    /*flex: 1;
+    max-width: 35%;
+    display: flex;
+    justify-content: center;*/
+}
+
+.img-historia{
+
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+
+    /*background: #ccc;*/
+    /*color: #666;*/
+
+
+    /*max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+
+
+
+/* MAIN DE CLIENTES */
+
+/*.titulo-opinion-cliente {
+    text-align: center;
+    margin: 80px 0px;
+    padding: 1rem;
+    /* background-color: #f4f4f4;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+.section-clientes{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 0 20px 150px 20px;
+}
+
+.grid-card-clientes {
+    background-color: #ffffff;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grid-picture-clientes-1 .img-clientes{
+    width: 150px;
+    height: 150px;
+}
+
+.grid-card-clientes h1{
+    font-size: 30px;
+    color: black;
+    margin: 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-card-clientes p{
+    font-size: 20px;
+    color: black;
+    margin: 30px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/*ESTILOS MAIN PAGE SERVICIOS - TIPO DE CUARTOS */
+
+#main-servicio{
+    z-index: 1;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TITULO DE SERVICIO - TIPOS DE CUARTOS*/
+
+.titulo-de-habitaciones{
+    text-align: center;
+    max-width: 1200px;
+}
+
+/*.titulo-de-habitaciones h3{
+    margin-bottom: 70px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+/*ESTILO DE DISEÑO DE TIPOS DE CUARTOS DE HOTEL*/
+
+.cuartos-de-hotel{
+    display: inline-block;
+    width: calc(42% - 20px);
+    margin: 30px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.cuartos-foto-hotel img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+    
+}
+
+.cuartos-de-hotel p{
+    margin-top: 10px;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/* ESTILOS MAIN PAGE ACERCA DE */
+
+#main-acercade{
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    min-height: 100vh;
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-acercade{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+
+    max-width: 1000px;
+    /*margin: 0 auto;*/
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+
+
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 150px;*/
+
+    /* background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; */
+}
+
+.historia-textos-acercade{
+
+    flex: 2;
+
+
+    /*flex: 1;
+    max-width: 60%;*/
+}
+
+.historia-textos-acercade h4{
+
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    /*text-align: left;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 0px 0px 0px;*/
+}
+
+.historia-textos-acercade p{
+
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    /*text-align: left;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 16px 16px 0px;*/
+}
+
+.grid-picture-acercade{
+
+    flex: 1;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*flex: 1;
+    max-width: 35%;
+    display: flex;
+    justify-content: center;*/
+}
+
+.img-acercade{
+
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+
+
+
+    /*max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+
+
+
+
+
+
+
+/* ESTILOS MAIN PAGE OFERTAS */
+
+#main-ofertas{
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    min-height: 50vh;
+    padding: 50px 200px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TITULO DE OFERTA - OFERTAS QUE NO PUEDES PERDERTE*/
+
+.titulo-de-ofertas{
+    text-align: center;
+    max-width: 1700px;
+}
+
+/*.titulo-de-ofertas h3{
+    margin-bottom: 70px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+/* ESTILO DE DISEÑO DE OFERTAS */
+
+.ofertas-de-hotel{
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.ofertas-foto-hotel img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.ofertas-de-hotel p{
+    margin-top: 10px;
+    color: #555;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* MAIN DISEÑO DE OFERTAS QUE FUERON COMENTADAS POR LOS CLIENTES */
+
+
+/*h4 {
+    text-align: center;
+    margin: 80px 0px;
+    padding-left: 0px;
+    /* background-color: #f4f4f4;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+
+.section-ofertas{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 0 0 50px 0;
+}
+
+.grid-card-ofertas {
+    background-color: #ffffff;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grid-picture-ofertas-1 .img-ofertas{
+    width: 150px;
+    height: 150px;
+}
+
+.grid-card-ofertas h1{
+    font-size: 30px;
+    color: black;
+    margin: 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-card-ofertas p{
+    font-size: 20px;
+    color: black;
+    margin: 30px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* ESTILOS MAIN PAGE CONTACTO */
+
+#main-contacto{
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    min-height: 10vh;
+    padding: 0px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido-de-contacto{
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*.titulo-de-contacto h3 {
+    text-align: center;
+    margin: 80px 0px;
+    padding: 1rem;
+    /* background-color: #f4f4f4;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/
+
+.titulo-de-contacto p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+    
+}
+
+.contacto-de-hotel{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    
+}
+
+.contacto-item-hotel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacto-item-hotel img{
+    width: 50px;
+    height: 50px;
+}
+
+.contacto-item-hotel h5{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.contacto-formulario{
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contacto-formulario h6{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contacto-formulario label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contacto-formulario button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* DISEÑO RESPONSIVE DE CONTACTO */
+
+@media (min-width: 768px) {
+
+    .contacto-de-hotel {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .contacto-item-hotel {
+    flex: 1;
+    }
+
+    
+    .contacto-formulario {
+    text-align: center;
+    }
+}

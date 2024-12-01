@@ -1,0 +1,141 @@
+
+@media (max-width: 768px) {
+
+
+    /* DISEÑO RESPONSIVE DE FOOTER */
+
+    .footer-links-ul {
+        display: block;
+    }
+
+    .footer-links-ul li {
+        margin: 10px 0;
+    }
+
+    .footer-redes .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+/* DISEÑO RESPONSIVE DE SERVICIOS */
+
+    .section-grids {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-grids {
+    grid-template-columns: 1fr;
+    }
+
+
+/* DISEÑO RESPONSIVE DE HISTORIA DEL HOTEL */
+
+    .section-historia {
+
+    flex-direction: column;
+
+    /*flex-direction: column;
+    align-items: flex-start;*/
+    }
+
+    /*.historia-textos {
+    max-width: 100%;
+    }*/
+
+    .grid-picture-historia {
+
+    height: 150px;
+
+    
+    /*max-width: 100%;
+    margin-top: 10px;*/
+    }
+
+
+    /* DISEÑO RESPONSIVE DE CLIENTES */
+
+    .section-clientes {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .grid-card-clientes {
+    max-width: 100%;
+    }
+
+    .grid-picture-clientes-1{
+    max-width: 100%;
+    margin-top: 10px;
+    }
+
+
+
+/* DISEÑO RESPONSIVE DE TIPOS DE CUARTOS */
+
+    .cuartos-de-hotel {
+        width: calc(50% - 20px);
+    }
+
+    .cuartos-de-hotel {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+
+
+/* DISEÑO RESPONSIVE DE ACERCA DEL HOTEL */
+
+    .section-acercade {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .historia-textos-acercade {
+    max-width: 100%;
+    }
+
+    .grid-picture-acercade {
+    max-width: 100%;
+    margin-top: 10px;
+    }
+
+
+
+
+
+    /* DISEÑO RESPONSIVE DE OFERTAS */
+
+    .ofertas-de-hotel {
+        width: calc(50% - 20px);
+    }
+
+    .ofertas-de-hotel {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+
+
+
+
+/* DISEÑO RESPONSIVE DE OFERTAS QUE FUERON COMENTADAS POR LOS CLIENTES */
+
+    .section-ofertas {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .grid-card-ofertas {
+    max-width: 100%;
+    }
+
+    .grid-picture-ofertas-1{
+    max-width: 100%;
+    margin-top: 10px;
+    }
+
+
+    
+}

@@ -1,0 +1,100 @@
+/*ESTILOS FOOTER*/
+
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: auto;
+}
+
+/*FOOTER LOGO*/
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo-picture img {
+    padding: 2rem 0;
+    max-width: 10%;
+    height: auto;
+}
+
+/*FOOTER LINKS*/
+
+.footer-links-ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links-ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* .footer-links-ul li a:hover */
+.footer-links-ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s
+}
+
+.footer-links-ul li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* ICONOS DE REDES SOCIALES */
+
+.footer-redes{
+    margin-top: 20px;
+}
+
+.footer-redes .social-icon{
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-redes .social-icon img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+/*.footer-redes .social-icon:hover img {
+    transform: scale(1.1);
+    color: white;
+}*/
+
+/* FOOTER AUTOR */
+
+.footer-autor{
+    margin-top: 30px;
+}
+
+.footer-autor h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-autor h6{
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

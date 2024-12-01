@@ -1,0 +1,27 @@
+/*
+!importan = aplica a las propiedades y pisa todo orden jerarquico.
+
+id = ETIQUETA UNICO E IRREPETIBLE / DNI / EMAIL / PATENTE DE UN AUTO.
+class = SE PUEDEN REPETIR Y UTILIZAR MÁS DE UNA VEZ.
+
+etiquetas / selectores = etiquetas semánticas del html.
+*/
+/*selector / id / clase {propiedad: valor;}*/
+
+/*LLAMADO AL DOCUMENTO HTML*/
+
+@forward "presets/reset";
+@forward "presets/header";
+@forward "presets/main";
+@forward "presets/mixin";
+@forward "presets/footer";
+@forward "presets/queries";
+@forward "presets/animaciones";
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+
+@mixin titulos-para-inicio{
+    text-align: center;
+    margin: 95px 0px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-servicios-index{
+    @include titulos-para-inicio;
+}
+
+.titulo-historia-index {
+    @include titulos-para-inicio;
+}
+
+.titulo-cliente-index{
+    @include titulos-para-inicio;
+}
+
+
+
+@mixin titulos-para-servicio{
+    text-align: center;
+    margin: 95px 0px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-servi-servicio {
+    @include titulos-para-servicio;
+}
+
+.titulo-habitaciones-servicio {
+    @include titulos-para-servicio;
+}
+
+
+
+@mixin titulos-para-acercade{
+    text-align: center;
+    margin: 95px 0px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.titulo-servi-acercade {
+    @include titulos-para-acercade;
+}
+
+.titulo-historia-acercade {
+    @include titulos-para-acercade;
+}
+
+
+
+
+@mixin titulos-para-ofertas{
+    text-align: center;
+    margin: 95px 0px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-descuentos-ofertas {
+    @include titulos-para-ofertas;
+}
+
+.titulo-testimonios-ofertas {
+    @include titulos-para-ofertas;
+}
+
+
+@mixin titulos-para-contactanos{
+    text-align: center;
+    margin: 95px 0px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-datos-contactanos {
+    @include titulos-para-ofertas;
+}

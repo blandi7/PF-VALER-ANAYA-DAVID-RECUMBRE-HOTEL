@@ -1,0 +1,87 @@
+/*ESTILOS HEADER*/
+
+#header {
+    width: 100%;
+    height: 129px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+
+/* ESTILOS BTS */
+
+.navbar {
+    align-items: center;      /* Centra el contenido verticalmente */
+    padding: 27px 0;          /* Añade un poco de espacio alrededor */
+    background-color: rgb(255, 255, 255);  /* Color de fondo */
+
+/* El header siempre visible al hacer scroll */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Asegura que el navbar esté encima de otros elementos */
+}
+
+.navbar-brand {
+    margin-right: 0;  /* Espacio entre el logo y las pestañas */
+}
+
+/* Para el botón del menú en pantallas pequeñas */
+.navbar-toggler {
+    border: none;
+}
+
+/* Para que las pestañas estén espaciadas */
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Ajusta el espacio entre las pestañas */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav a {
+    color: rgb(167, 167, 167);
+    transition: color 0.3s
+}
+
+.navbar-nav a:hover {
+    color: black;
+    transition: color 0.3s
+}
+
+
+/* Para la imagen del logo */
+.navbar-brand img {
+    width: 200px;  /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+/*ESTILOS NAV*/
+
+/*
+#nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/*
+li,
+ul {
+    display: flex;
+    flex-direction: end;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+
+/*
+.nav-logo img {
+    width: 200px;
+} */
