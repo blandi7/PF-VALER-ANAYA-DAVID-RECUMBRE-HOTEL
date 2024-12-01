@@ -4,6 +4,29 @@
 
     /* DISEÑO RESPONSIVE DE FOOTER */
 
+
+    .footer-links-ul {
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .footer-redes {
+    gap: 5px;
+    }
+
+    .footer-social-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    }
+
+
+    /*
+    .footer-logo-picture {
+        margin: 0;
+    }
+
     .footer-links-ul {
         display: block;
     }
@@ -15,7 +38,10 @@
     .footer-redes .social-icon img {
         width: 25px;
         height: 25px;
-    }
+    }*/
+
+
+
 
 /* DISEÑO RESPONSIVE DE SERVICIOS */
 
