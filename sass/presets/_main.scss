@@ -110,6 +110,85 @@
 
 
 
+/*ESTILOS PAGE SERVICIOS DENTRO Y FUERA DEL HOTEL*/
+
+.section-grids-servi {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 0 120px 70px 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.grid-card-1-servi {
+    background-color: #ffffff;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-picture-wifi-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-picture-desayuno-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-picture-electri-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-picture-parqueo-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-picture-piscina-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-picture-gimnasio-servi img {
+    width: 300px;
+    height: 300px;
+    /*background-color: #cccccc;*/
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.grid-card-1-servi h2 {
+    font-size: 20px;
+    color: black;
+    opacity: 70%;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
 
 /* MAIN DE HISTORIA DEL HOTEL */
 
@@ -267,6 +346,7 @@
     color: black;
     margin: 30px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
 }
 
 
@@ -281,7 +361,7 @@
     width: 100%;
     margin-top: 10px;
     min-height: 100vh;
-    padding: 100px 0;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -339,7 +419,7 @@
 #main-acercade{
     z-index: 1;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 50px;
     min-height: 100vh;
     padding: 0px 200px;
     display: flex;
@@ -360,8 +440,8 @@
     max-width: 1000px;
     /*margin: 0 auto;*/
     background: #fff;
-    padding-top: 20px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     border-radius: 10px;
     /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
 
@@ -383,6 +463,23 @@
     padding: 20px; */
 }
 
+.section-acercade-v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+
+    max-width: 1000px;
+    /*margin: 0 auto;*/
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    border-radius: 10px;
+}
+
+
+
 .historia-textos-acercade{
 
     flex: 2;
@@ -395,7 +492,7 @@
 .historia-textos-acercade h4{
 
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
@@ -453,7 +550,24 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 
+.grid-picture-acercade-v1 {
+    flex: 1;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.img-acercade-v1 {
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
 
 
 
@@ -563,6 +677,7 @@
     color: black;
     margin: 30px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
 }
 
 
